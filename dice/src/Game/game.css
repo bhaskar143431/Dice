@@ -1,0 +1,62 @@
+.main1{
+
+    width: 1182px;
+    margin: auto;
+}
+.score h1{
+    font-size: 100px;
+    line-height: 100px;
+}
+.score p{
+    font-size: 24px;
+    font-weight: 500px;
+}
+box{
+    height: 72px;
+    width: 72px;
+    border: 1px solid black;
+    display: grid;
+    place-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    transition: 0.2s background ease-in;   
+}
+box:hover{
+    background-color: black;
+    color: white;
+    transition: 0.2s background ease-in;
+}
+.boxes{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+.numbers{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 20px;
+}
+.para{
+    
+    padding-left: 350px;
+    font-size: 24px;
+    font-weight: 700px;
+}
+.nav{
+    display: flex;
+    height: 151px;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+}
+.foot{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.butt{
+    margin-top: 20px;
+}
